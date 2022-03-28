@@ -3,12 +3,25 @@
 MyORM is a ORM, open source, created to be used in small complexity projects.
 In this project we have all the interfaces, attributes, exceptions and enuns that must be used to create a implementation of MYORM to a specific database.
 
+
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+.NET CLI
 
 ```bash
-pip install foobar
+dotnet add package Adr.MyORM --version 1.0.0
+```
+
+Nuget package manager
+
+```bash
+PM> Install-Package Adr.MyORM -Version 1.0.0
+```
+
+packageReference
+
+```bash
+<PackageReference Include="Adr.MyORM" Version="1.0.0" />
 ```
 
 ## Contributing
