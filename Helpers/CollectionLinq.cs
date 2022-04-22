@@ -11,24 +11,24 @@ namespace MyORM.Linq
             return source.Query(expression);
         }
 
-        public static IEnumerable<TSource> ToList<TSource, TResult>(this IQueryableCollection<TSource> source, Expression<Func<TSource, TResult>> expression) where TSource : class
+        public static List<TSource> ToList<TSource, TResult>(this IQueryableCollection<TSource> source, Expression<Func<TSource, TResult>> expression) where TSource : class
         {
-            return source.Query(expression).Run();
+            return source.Query(expression).Run().ToList();
         }
 
-        public static IEnumerable<TSource> ToList<TSource>(this IQueryableCollection<TSource> source) where TSource : class
+        public static List<TSource> ToList<TSource>(this IQueryableCollection<TSource> source) where TSource : class
         {
-            return source.Run();
+            return source.Run().ToList();
         }
 
-        public static async Task<IEnumerable<TSource>> ToListAsync<TSource, TResult>(this IQueryableCollection<TSource> source, Expression<Func<TSource, TResult>> expression) where TSource : class
+        public static async Task<List<TSource>> ToListAsync<TSource, TResult>(this IQueryableCollection<TSource> source, Expression<Func<TSource, TResult>> expression) where TSource : class
         {
-            return await source.Query(expression).RunAsync();
+            return (await source.Query(expression).RunAsync()).ToList();
         }
 
-        public static async Task<IEnumerable<TSource>> ToListAsync<TSource>(this IQueryableCollection<TSource> source) where TSource : class
+        public static async Task<List<TSource>> ToListAsync<TSource>(this IQueryableCollection<TSource> source) where TSource : class
         {
-            return await source.RunAsync();
+            return (await source.RunAsync()).ToList();
         }
 
         public static IEnumerable<TSource> Take<TSource>(this IQueryableCollection<TSource> source, int limit) where TSource : class
