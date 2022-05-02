@@ -9,3 +9,4 @@ C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Debug\net6.0\MyORM.csproj.CoreCom
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Debug\net6.0\MyORM.dll
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Debug\net6.0\ref\MyORM.dll
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Debug\net6.0\MyORM.pdb
+C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Debug\net6.0\MyORM.csproj.AssemblyReference.cache
