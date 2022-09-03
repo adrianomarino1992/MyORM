@@ -1,6 +1,5 @@
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\bin\Release\net6.0\MyORM.deps.json
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\bin\Release\net6.0\MyORM.dll
-C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\bin\Release\net6.0\ref\MyORM.dll
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\bin\Release\net6.0\MyORM.pdb
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\MyORM.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\MyORM.AssemblyInfoInputs.cache
@@ -10,3 +9,4 @@ C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\MyORM.dll
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\ref\MyORM.dll
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\MyORM.pdb
 C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\MyORM.csproj.AssemblyReference.cache
+C:\Users\LuisDev\Desktop\MyORM\MyORM\MyORM\obj\Release\net6.0\refint\MyORM.dll
