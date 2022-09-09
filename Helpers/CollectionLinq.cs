@@ -43,14 +43,18 @@ namespace MyORM.Linq
 
         public static TSource First<TSource>(this IQueryableCollection<TSource> source) where TSource : class
         {
+            #pragma warning disable
             return source.Limit(1).Run().FirstOrDefault();
+            #pragma warning restore
         }
 
         public static async Task<TSource> FirstAsync<TSource>(this IQueryableCollection<TSource> source) where TSource : class
         {
+            #pragma warning disable
             return (await source.Limit(1).RunAsync()).FirstOrDefault();
+            #pragma warning restore
         }
-
+        
 
     }
 }

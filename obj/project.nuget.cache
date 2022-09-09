@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+SjLYa0O/0SIQwp+2kUbhmNT6qhp/OwV35a6kUR2PpqYeAjLyFgImE225PrObt0nocz5LAazMdwJ8MzEFwTMfA==",
+  "dgSpecHash": "OweD2RciLAKydCmmSle8ip6ooIHlxZadw+icCWSEsl04gpxaoaj4bfhMQVp1ILOdaKyO9a1TAG0RBYmWz9YPvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\LuisDev\\Desktop\\MyORM\\MyORM\\MyORM\\MyORM.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LuisDev\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.4\\microsoft.netcore.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\LuisDev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.4\\microsoft.windowsdesktop.app.ref.6.0.4.nupkg.sha512",
+    "C:\\Users\\LuisDev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.4\\microsoft.aspnetcore.app.ref.6.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
