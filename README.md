@@ -9,19 +9,19 @@ In this project we have all the interfaces, attributes, exceptions and enuns tha
 .NET CLI
 
 ```bash
-dotnet add package Adr.MyORM --version 2.0.1
+dotnet add package Adr.MyORM --version 3.0.0
 ```
 
 Nuget package manager
 
 ```bash
-PM> Install-Package Adr.MyORM -Version 2.0.1
+PM> Install-Package Adr.MyORM -Version 3.0.0
 ```
 
 packageReference
 
 ```bash
-<PackageReference Include="Adr.MyORM" Version="2.0.1" />
+<PackageReference Include="Adr.MyORM" Version="3.0.0" />
 ```
 
 ## Contributing

@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyORM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyORM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyORM")]
-[assembly: System.Reflection.AssemblyVersionAttribute("3.0.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("3.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
